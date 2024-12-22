@@ -8,24 +8,31 @@
     <script src="/files/script.js" defer></script>
 </head>
 <body>
-    
-    <form action="">
-        <div class="icon"></div>
-        <p class="greeting">Hi, welcome back!</p>
-        <div class="input-box">
-            <input type="email" placeholder="email">
-            <div class="input-icon"></div>
-        </div>
-        <div class="input-box">
-            <input type="password" placeholder="password" pattern="^[A-Za-z0-9!@#$%^&*]{8,15}$">            >
-            <div class="input-icon"></div>
-        </div>
-        <a href="#">Forgot password?</a>
-        <button type="submit">login</button>
-        <p>Don't have an account? <a href="#">Register</a> </p>
+    <main>
 
-    </form>
+        <form action="">
 
+            <p class="login element">Login</p>
+
+            <div class="input-box element">
+                <input type="email" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                <div class="input-icon person"></div>
+            </div>
+            
+            <div class="input-box element">
+                <input type="password" placeholder="Password" pattern="^[A-Za-z0-9!@#$%^&*]{8,15}$">
+                <div class="input-icon lock"></div>
+            </div>
+
+            <a class="forgot-password element" href="#">Forgot password?</a>
+
+            <button class="element" type="submit">login</button>
+
+            <p class="element">Don't have an account? <a href="#" class="bold">Register</a> </p>
+
+        </form>
+        
+    </main>
 
 </body>
 </html>
