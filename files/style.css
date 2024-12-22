@@ -25,11 +25,11 @@ a:hover {
 }
 
 .lock {
-    background-image: url('/icons/lock.svg');
+    background-image: url('../icons/lock.svg');
 }
 
 .person {
-    background-image: url('/icons/person.svg');
+    background-image: url('../icons/person.svg');
 }
 
 .input-icon {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 body {
-    background-image: url('/images/back-image.jpg');
+    background-image: url('../images/back-image.jpg');
     display: flex;
     height: 100vh; 
     justify-content: center;
